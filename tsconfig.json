@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "lib": ["es2018", "DOM"],
+        "outDir": "./build/",
+        "sourceMap": true,
+        "declaration": false,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": false,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "skipLibCheck": true,
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

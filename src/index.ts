@@ -27,7 +27,7 @@ document.getElementById("btn-ipad").onclick = function() {
     switchSize(SizeType.IPAD);
 }
 
-document.getElementById("btn-iphoneX").onclick = function() {
+document.getElementById("btn-iphonex").onclick = function() {
     switchSize(SizeType.IPHONEX);
 }
 

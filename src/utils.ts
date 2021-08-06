@@ -21,11 +21,10 @@ export function parseQueryString(queryString: string) {
 }
 
 export function getViewportSize() {
-    var win = window,
-    doc = document,
+    var doc = document,
     docElem = doc.documentElement,
     body = doc.getElementsByTagName('body')[0],
-    width = win.innerWidth || docElem.clientWidth || body.clientWidth,
-    height = win.innerHeight|| docElem.clientHeight|| body.clientHeight;
+    width = docElem.clientWidth || body.clientWidth,
+    height = docElem.clientHeight|| body.clientHeight;
     return { width, height };
 }
